@@ -102,7 +102,7 @@
 ## 📈 GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ganeshwalkoli&show_icons=true&theme=vision-friendly-dark&hide_border=true&bg_color=0D1117" width="48%" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=ganeshwalkoli&show_icons=true&theme=vision-friendly-dark&hide_border=true" width="48%" alt="GitHub Stats" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=ganeshwalkoli&theme=vision-friendly-dark&hide_border=true&background=0D1117" width="48%" alt="GitHub Streak" />
 </div>
 
