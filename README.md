@@ -93,57 +93,6 @@
 
 ---
 
-## 📐 Enterprise Architecture Showcase
-
-*As a Cloud Engineer, I specialize in designing scalable, secure, and highly available architectures. Here is a conceptual EKS microservices deployment model:*
-
-```mermaid
-graph TD
-    Client([🌍 End Users]) -->|HTTPS| Route53[AWS Route 53]
-    Route53 --> WAF[AWS WAF / Shield]
-    WAF --> ALB[Application Load Balancer]
-    
-    subgraph "VPC - Production Environment"
-        subgraph "Public Subnet"
-            ALB
-            NatGateway[NAT Gateway]
-        end
-        
-        subgraph "Private Subnet - Amazon EKS Cluster"
-            APISIX[APISIX API Gateway]
-            ALB --> APISIX
-            
-            subgraph "Containerized Microservices"
-                GoApp[⚡ Go Service]
-                JavaApp[☕ Spring Boot Service]
-                Angular[🛡️ Angular Frontend]
-            end
-            
-            APISIX --> GoApp
-            APISIX --> JavaApp
-            APISIX --> Angular
-        end
-        
-        subgraph "Secure Data Subnet"
-            RDS[(PostgreSQL RDS Multi-AZ)]
-            ElastiCache[(Redis ElastiCache)]
-            JavaApp --> RDS
-            GoApp --> ElastiCache
-        end
-    end
-    
-    subgraph "🛠️ DevSecOps & Observability"
-        Prometheus[Prometheus]
-        Grafana[Grafana]
-        Jenkins[Jenkins Pipelines]
-        SonarQube[SonarQube Code Quality]
-        
-        Jenkins -.->|Terraform / Helm| APISIX
-    end
-```
-
----
-
 ## 📜 Active Certifications
 - ☁️ **AWS Certified Cloud Practitioner (CLF-C01)** — *Amazon Web Services, 2022*
 - 🎓 **Masters Program in AWS Cloud Architect** — *Simplilearn, 2022*
@@ -161,4 +110,8 @@ graph TD
 
 <p align="center">
   <em>Always open to discussing Cloud Architecture, Kubernetes, and DevOps best practices!</em>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=ganeshwalkoli&label=Profile%20Views&color=0e75b6&style=flat-square" alt="Profile Views" />
 </p>
