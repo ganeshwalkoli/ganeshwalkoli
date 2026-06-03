@@ -10,14 +10,14 @@
   <a href="https://linkedin.com/in/ganeshwalkoli"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <img src="https://img.shields.io/badge/AWS-Certified-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS Certified" />
-  <img src="https://img.shields.io/badge/Experience-3.5+_Years-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Experience" />
+  <img src="https://img.shields.io/badge/Experience-4+_Years-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Experience" />
 </p>
 
 ---
 
 ## 👨‍💻 About Me
 
-Cloud & DevOps Engineer with **3.5+ years** of hands-on experience building and operating **production-grade infrastructure** for high-compliance environments — including leading **Stock Exchange organizations** and **FinTech platforms** where uptime and security are non-negotiable.
+Cloud & DevOps Engineer with **4+ years** of hands-on experience building and operating **production-grade infrastructure** for high-compliance environments — including leading **Stock Exchange organizations** and **FinTech platforms** where uptime and security are non-negotiable.
 
 I specialize in:
 - 🏗️ **Multi-environment EKS clusters** running Java, Angular, and Go microservices
